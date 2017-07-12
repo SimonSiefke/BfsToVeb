@@ -1,0 +1,5 @@
+A
+B,C
+D,E,F,G
+H,P,Q,I,R,S,J,T
+U,K,V,W,L,X,Y,M,Z,a,N,b,c,O,d,e

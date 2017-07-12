@@ -24,9 +24,10 @@ export function print(height, chars = false) {
     prettyResult.push(result.slice(2 ** i - 1, result.length))
 
     console.log(prettyResult)
+    fs.writeFileSync("./result.txt", prettyResult.join('\n'))
+
     return prettyResult.join('\n')
 
-    // fs.writeFileSync("./result.txt", prettyResult.join('\n'))
 }
 
 print(5, true)
